@@ -5,5 +5,5 @@ provider "aws" {
 
 resource "aws_instance" "graylog_test_server" {
   ami = "ami-be7753db"
-  instance_type = "t2.medium"
+  instance_type = "t2.micro"
 }
